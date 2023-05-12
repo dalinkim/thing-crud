@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  thing-crud:
+    image: tc
+    ports:
+      - "8080:8080"

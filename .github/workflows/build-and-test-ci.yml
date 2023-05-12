@@ -18,3 +18,4 @@ jobs:
           cache: 'maven'
           check-latest: true
       - run: mvn clean package
+      - run: docker build . -f Dockerfile -t tc
